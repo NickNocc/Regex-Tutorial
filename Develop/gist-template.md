@@ -29,16 +29,15 @@ Briefly summarize the regex you will be describing and what you will explain. In
 
 ### Quantifiers
 * Quantifiers tell the expression to look for matches under certain conditions
-* 
+* These can tell the expression to only look for so many characters. This would be the {} operators. In our expression the "{2,6}" tells the expression that we are looking for between 2 and 6 instances of a-z followed by a period.
+* The + sign in a regular expression looks for something occuring one or more times. In our expression the + guarantees that we will accept data that is not blank, and gives us the ability to take in multiple singluar characters within a bound.
 
 
 ### OR Operator
+* The or operator allows an expression to look for what infront or behing it. So 1|2 would find any 1 or 2 in the data that is being worked with.
 
 ### Character Classes
 
-### Flags
-
-### Grouping and Capturing
 
 ### Bracket Expressions
 
