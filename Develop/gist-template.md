@@ -41,6 +41,10 @@ Briefly summarize the regex you will be describing and what you will explain. In
 * In our expression this is used multiple times, but lets just look at [\da-z\.-]+. The class characters in this portion are looking for digits(\d), any letter of the alphabet (a-z), a period (\.), and a hyphen (-). This will accept any one character that fits that criteria, and the + at the end will look for 1 or more instances of these parameters.
 
 ### Flags
+* Flags are ways to change the way in which the expression is searching.
+* These flags can be used to ignore casing (i), look at multiple lines while ignoring line breaks (m), and (g) global which searches through all occurances.
+
+### Grouping and Capturing
 
 
 ### Bracket Expressions
