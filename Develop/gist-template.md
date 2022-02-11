@@ -23,8 +23,14 @@ Briefly summarize the regex you will be describing and what you will explain. In
 ## Regex Components
 
 ### Anchors
+* Anchors tell the expression where to begin and end a query.
+* One type of anchor is the "^" or caret which tells the expression that this is the begining of what we are searching for.
+* On the other end we have "$", which marks the end of the search parameteres.
 
 ### Quantifiers
+* Quantifiers tell the expression to look for matches under certain conditions
+* 
+
 
 ### OR Operator
 
