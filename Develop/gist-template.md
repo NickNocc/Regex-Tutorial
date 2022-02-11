@@ -37,6 +37,10 @@ Briefly summarize the regex you will be describing and what you will explain. In
 * The or operator allows an expression to look for what infront or behing it. So 1|2 would find any 1 or 2 in the data that is being worked with.
 
 ### Character Classes
+* Class characters are sets of characters that the expression will look for.
+* In our expression this is used multiple times, but lets just look at [\da-z\.-]+. The class characters in this portion are looking for digits(\d), any letter of the alphabet (a-z), a period (\.), and a hyphen (-). This will accept any one character that fits that criteria, and the + at the end will look for 1 or more instances of these parameters.
+
+### Flags
 
 
 ### Bracket Expressions
