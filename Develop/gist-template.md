@@ -46,7 +46,7 @@ Briefly summarize the regex you will be describing and what you will explain. In
 
 ### Grouping and Capturing
 * Grouping allows for an expression to search specifically for what is in a group of parenthesis. This allows for regex code to get more or less specifc based on their needs.
-
+* In our expression grouping is used multiple times to chop up and specify what we're looking for in every portion of the equation. In our expression /^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/ each set of parenthesis has different search parameters because an email is made up of different varying parts.
 
 ### Bracket Expressions
 
